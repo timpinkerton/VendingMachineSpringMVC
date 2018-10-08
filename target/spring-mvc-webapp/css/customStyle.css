@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2018, 4:30:12 PM
+    Author     : timpinkerton
+*/
+
+
+body {
+    background-color: #c0c0c0;
+}
+
+label {
+    font-family: 'Armata', sans-serif;
+}
+
+p {
+    color: black; 
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+input {
+    font-family: 'Orbitron', sans-serif;; 
+}
+
+a:link {
+    text-decoration: none; 
+}
+
+
+/***************************************************
+ styling for buttons in forms 
+***************************************************/
+
+button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+
+button:hover {
+    background-color: #eee; 
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+
+/***************************************************
+ styling for main snack selection buttons 
+***************************************************/
+
+.selection-button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: lightgray; 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.selection-button:hover {
+    background-color: #eee; 
+}
+
+.selection-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
